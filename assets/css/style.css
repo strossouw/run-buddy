@@ -44,6 +44,29 @@ section{
     padding: 60px;
 }
 
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+
 .hero{
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -81,7 +104,7 @@ section{
     margin-bottom: 15px;
 }
 
-.her-form label {
+.hero-form label{
     margin: 0 5px;
 }
 
@@ -93,25 +116,29 @@ section{
     font-size: 16px;
 }
 
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
+.intro {
+    text-align: center;
 }
 
-footer h2 {
-    display: inline;
+.intro h2 {
+    font-size: 55px;
     color: #024e76;
-    font-size: 30px;
-    margin: 0;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+}
+.intro h2 {
+    display: inline-block;
 }
 
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
+.intro p{
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
 }
 
-footer a {
-    color: #024e76;
+.intro p{
+    margin: 0 auto;
 }
